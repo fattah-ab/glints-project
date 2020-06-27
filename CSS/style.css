@@ -172,7 +172,8 @@ li {
 }
 
 .footer-list {
-  text-align: center;
+  flex: 1;
+  text-indent: 10rem;
 }
 
 .footer-list h3 {
@@ -183,6 +184,10 @@ li {
 .footer-list li {
   font-size: 14px;
   padding-bottom: 8px;
+}
+
+.footer-list li a {
+  text-decoration: none;
 }
 
 .sosmed {
